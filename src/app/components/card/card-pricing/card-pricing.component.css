@@ -2,14 +2,19 @@
 	position: absolute;
 	bottom:0px;
 	left: 0;
+	
 	display: flex;
 	flex-direction: column;
+	
 	width: 100%;
 	height: 70px;
+	
 	background-color: rgba(0,0,0,0.8);
-	padding: 10px;
-	color: antiquewhite;
-	font-family: Calibri;
+	
+	padding: 18px;
+	
+	color: rgba(245, 245, 245, 0.339);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .card-pricing__title{
@@ -20,15 +25,22 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+
+	font-size: xx-small;
+
 }
 
 .card-pricing__value__console{
 	display: flex;
 	flex-direction: row;
+
+	font-size: xx-small;
+
 }
 
 .card-pricing__value__console > span{
-	font-weight: bolder;
-	color:aqua;
-	margin-right: 10px;
+	/* font-weight: bolder; */
+	color:rgb(118, 3, 12);
+	margin-right: 2px;
+
 }
